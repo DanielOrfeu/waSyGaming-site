@@ -1,4 +1,41 @@
 .aboutContent{
     border: 5px solid rgb(29, 25, 207);
+    padding: 20px;
     text-align: center;
+    background-color: #234e92;
+    display: flex;
+    flex-direction: column;
 } 
+
+.timeLineText  {
+    color: black;
+}
+
+.timeLineDate{
+    color: white;
+
+}
+
+.timeLineIcon{ 
+    background: rgb(29, 25, 207);
+    color: #fff 
+}
+
+.aboutText{
+    max-width: 900px;
+    align-self: center;
+}
+
+.aboutButton{
+    background: rgb(16, 13, 218);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.aboutButton:hover{
+    background: rgb(11, 154, 211);
+    color: black;
+}
