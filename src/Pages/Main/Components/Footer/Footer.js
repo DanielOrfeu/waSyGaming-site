@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Footer.css'
 
-import waSy1Logo from '../../../../Assets/Images/wasyLogos/logo complta 2.png'
+import waSy1Logo from '../../../../Assets/Images/wasyLogos/logo completa 2.png'
 import waSy2Logo from '../../../../Assets/Images/wasyLogos/logo plus completa.png'
 import waSy3Logo from '../../../../Assets/Images/wasyLogos/logo girls completa.png'
 
