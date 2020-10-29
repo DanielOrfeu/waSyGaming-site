@@ -48,7 +48,7 @@ class About extends Component {
                     O significado do nome waSy é: <u>w</u>e <u>a</u>re the <u>S</u>ingularit<u>y</u>, que em tradução livre quer dizer: "Nós somos a singularidade" (algo único, distinto, original), assim mostrando que viemos com determinação e garra para deixarmos nossa marca nos cenários competitivos.
                 </p>
                 <p className="aboutText">
-                    Atualmente, waSy Gaming é uma organização amadora que contém projetos para criar um time principal (waSy Gaming), um time feminino (waSy Girls) e um time secundário/misto (waSy Plus) para ingressar no cenário competitivo de três jogos: Counter-Strike: Global Offensive (CS GO), CrossFire América Latina (CF AL) e League of Legends (LoL).
+                    Atualmente, waSy Gaming é uma organização amadora que contém projetos para criar um time principal (waSy Gaming), um time feminino (waSy Girls) e um time secundário/misto (waSy Plus) para ingressar no cenário competitivo de Global Offensive (CS GO) e/ou League of Legends (LoL).
                 </p>
                 <p className="aboutText">
                     Tem algo a nos dizer ou tem interesse em participar da organização? 

@@ -4,9 +4,9 @@ import './Header.css'
 class Header extends Component {
     render() {
         return (
-            <nav className="headerContent">
+            <div className="headerContent">
                 Header Content
-            </nav>
+            </div>
         )
     }
 }

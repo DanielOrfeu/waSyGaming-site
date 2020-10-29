@@ -1,7 +1,9 @@
 import React, { useState, useRef } from "react";
 import Chevron from "./Chevron";
-
+import Game from "./Game/Game";
 import "./AccordionTeam.css";
+
+import teamsInfos from '../TeamsInfos.json'
 
 function AccordionTeam(props) {
     const [setActive, setActiveState] = useState("");
@@ -33,10 +35,13 @@ function AccordionTeam(props) {
         style={{ maxHeight: `${setHeight}` }}
         className="accordion__content"
       >
-        <div
-          className="accordion__text"
-          dangerouslySetInnerHTML={{ __html: props.content }}
-        />
+        {
+          teamsInfos.teams[props.idTeam].games.map(game => {
+            return (
+              <Game title={game.title} members={game.members} />
+            )
+          })
+        }
       </div>
     </div>
   );

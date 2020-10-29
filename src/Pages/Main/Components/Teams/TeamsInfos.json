@@ -1,0 +1,86 @@
+{
+    "teams":[
+        {
+            "title": "WASY GAMING",
+            "pattern": "gaming",
+            "games": [
+                {
+                    "title": "CS:GO",
+                    "members": [
+                        {
+                            "IGN": "DaNN",
+                            "name": "Daniel Orfeu"
+                        },
+                        {
+                            "IGN": "Teste",
+                            "name": "Test Member"
+                        },
+                        {
+                            "IGN": "Teste",
+                            "name": "Test Member"
+                        },
+                        {
+                            "IGN": "Teste",
+                            "name": "Test Member"
+                        },
+                        {
+                            "IGN": "Teste",
+                            "name": "Test Member"
+                        }
+                    ]
+                },
+                {
+                    "title": "League of Legends",
+                    "members": [
+                        {
+                            "IGN": "DaNN",
+                            "name": "Daniel Orfeu"
+                        },
+                        {
+                            "IGN": "Teste",
+                            "name": "Test Member"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "WASY PLUS",
+            "pattern": "plus",
+            "games": [
+                {
+                    "title": "CS:GO",
+                    "members": [
+                        {
+                            "IGN": "DaNN",
+                            "name": "Daniel Orfeu"
+                        },
+                        {
+                            "IGN": "Teste",
+                            "name": "Test Member"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "WASY GIRLS",
+            "pattern": "girls",
+            "games": [
+                {
+                    "title": "CS:GO",
+                    "members": [
+                        {
+                            "IGN": "DaNN",
+                            "name": "Daniel Orfeu"
+                        },
+                        {
+                            "IGN": "Teste",
+                            "name": "Test Member"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
