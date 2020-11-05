@@ -25,7 +25,7 @@ function AccordionTeam(props) {
   return (
     <div className="accordion__section">
       <div className={`accordion ${props.pattern} ${setActive}`} onClick={toggleAccordion}>
-          <img className="accordion_logo" src={props.logo}/>
+          <img className="accordion_logo" src={props.logo} alt="accordionIMG"/>
           
         <p className="accordion__title">{props.title}</p>
         <Chevron className={`${setRotate}`} width={10} fill={"#ffff"} />
@@ -36,9 +36,9 @@ function AccordionTeam(props) {
         className="accordion__content"
       >
         {
-          teamsInfos.teams[props.idTeam].games.map(game => {
+          teamsInfos.teams[props.idTeam].games.map((game,i) => {
             return (
-              <Game title={game.title} members={game.members} />
+              <Game title={game.title} members={game.members} pattern={props.pattern} key={i}/>
             )
           })
         }

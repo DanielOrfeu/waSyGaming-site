@@ -1,7 +1,15 @@
 .memberContent{
     margin: 10px;
-    border: 5px solid yellow;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    background-color: white;
+    width: 170px;
+    box-shadow: 0 10px 30px rgba(44,62,80,0.5);
+    transition: all .3s ease;
+}
+
+.memberContent:hover {
+    box-shadow: none;
 }

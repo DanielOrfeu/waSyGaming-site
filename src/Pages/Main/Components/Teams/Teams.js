@@ -23,6 +23,7 @@ class Teams extends Component {
                                 pattern={team.pattern}
                                 logo={arrImages[i]}
                                 idTeam={i}
+                                key={i}
                             />
                         )
                     })

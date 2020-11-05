@@ -5,9 +5,9 @@ class Member extends Component {
     render() {
         return (
             <div className="memberContent">
-                <p>{this.props.member.IGN}</p>
+                <b><p>{this.props.member.IGN}</p></b>
                 <p>{this.props.member.name}</p>
-
+                <p>{this.props.member.role}</p>
             </div>
         )
     }

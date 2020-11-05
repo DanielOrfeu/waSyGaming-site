@@ -9,9 +9,9 @@ class Game extends Component {
                 <b>{this.props.title}</b>
                 <div className="memberList">
                     {
-                        this.props.members.map(member => {
+                        this.props.members.map((member, i) => {
                             return (
-                                <Member member={member}></Member>
+                                <Member member={member} key={i}/>
                             )
                         })
                     }

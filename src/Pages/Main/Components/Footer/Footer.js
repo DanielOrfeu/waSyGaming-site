@@ -11,9 +11,9 @@ class Footer extends Component {
         return (
             <div className="footerContent">
                 <div className="footerLogos">
-                    <img className="wasyFooterLogos" src={waSy1Logo}></img>
-                    <img className="wasyFooterLogos" src={waSy2Logo}></img>
-                    <img className="wasyFooterLogos" src={waSy3Logo}></img>
+                    <img className="wasyFooterLogos" src={waSy1Logo} alt="footerIMG"></img>
+                    <img className="wasyFooterLogos" src={waSy2Logo} alt="footerIMG"></img>
+                    <img className="wasyFooterLogos" src={waSy3Logo} alt="footerIMG"></img>
                 </div>
 
                 <div className="textsFooter">
